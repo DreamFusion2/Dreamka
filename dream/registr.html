@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form login and password</title>
+    <link rel="stylesheet" href="./styles/registr.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/fonts.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>Регистрация</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Почта" required>
+                <i class='bx bx-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Имя пользователя" required>
+                <i class='bx bx-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Пароль" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Повторите пароль" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+
+            <div class="remember">
+                <label for=""> <input type="checkbox">Запомнить меня</label>
+                <a href="#">Забыли пароль?</a>
+            </div>
+
+            <button type="submit" class="btn"><a href="login.html">Войти</a></button>
+
+            <div class="register-link">
+                <p>У вас уже есть аккаунт? <a href="login.html">Войдите</a></p>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
